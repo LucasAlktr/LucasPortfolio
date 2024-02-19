@@ -195,18 +195,17 @@
         </section>
         <section>
             <div class="form-contactme">
-                <form class="form-contactme-lp" action="">
+                <form class="form-contactme-lp" action="https://formspree.io/f/xayrokjb" method="POST">
                     <label for="fname">Name:</label><br>
                     <input class="textbox-form" type="text" id="fname" name="fname"><br>
                     <label for="femail">Email:</label><br>
-                    <input class="textbox-form type="email" id="femail" name="femail"><br>
+                    <input class="textbox-form" type="email" id="femail" name="femail"><br>
                     <label for="fsubj">Subject:</label><br>
-                    <input class="textbox-form type="text" id="fsubj" name="fsubj"><br>
-                    <p>
-                        Message
-                        <textarea id="textContact" name="textContact" rows="5" cols="50"></textarea><br>
-                        <button class="send-button" type="submit" form="form1" value="Submit">Send Message</button>
-                    </p>
+                    <input class="textbox-form" type="text" id="fsubj" name="fsubj"><br>
+                    <label for="textContact">Message:</label><br>
+                    <textarea id="textContact" name="textContact" rows="5" cols="50"></textarea><br>
+                    <input type="hidden" name="_subject" value="New submission from your website">
+                    <button class="send-button" type="submit">Send Message</button>
                 </form>
             </div>
         </section>
