@@ -1,0 +1,173 @@
+@media only screen and (min-width:1025px) {
+    
+.header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+}
+
+.header-main-ham-menu-cont{
+    display: none;
+}
+
+.header-sm-menu{
+    background: #BBE1FA;
+    color: #1B262C;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.header-main{
+    display: flex;
+}
+
+.header-link{
+    color: #BBE1FA;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.header-link:hover {
+    color: #FEC260
+}
+
+.header-links{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    list-style: flex;
+    list-style-type: none;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.lp-image {
+
+    padding: 8rem 4rem 1rem 8rem;
+}
+
+.lp-image-div{
+    width: 400px;
+    padding: 1rem 1rem 1rem 1rem;
+
+    border-radius: 50%;
+    box-shadow:5px 5px 5px #1B262C;
+}
+
+.apresentation-lp{
+    padding: 7rem 4rem 7rem 2rem;
+}
+
+.aboutme-title-lp{
+    font-weight: 1000;
+    font-size: 30px;
+    background-color: #1B262C;
+    box-shadow: 1px 0.5px 1px 8px  #BBE1FA;
+}
+
+.gettoknowme-lp{
+    font-weight: 1000;
+    font-size: 30px;
+    background-color: #1B262C;
+    box-shadow: 1px 0.5px 1px 8px  #BBE1FA;
+}
+
+.main-about-lp{
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+
+.details-espec-lp{
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+.myskills-lp{
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.skill-block{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem 20rem 3rem 20rem;
+}
+
+.projectsfont-lp{
+    font-weight: 1000;
+    font-size: 30px;
+    background-color: #1B262C;
+    box-shadow: 1px 0.5px 1px 8px  #BBE1FA;
+}
+
+.some-works-lp{
+    padding: 2rem 1rem 0rem 1rem;
+}
+
+
+.ticketBy-project-lp{
+    text-align: center;
+}
+
+.startaproject-lp{
+    font-weight: 1000;
+    font-size: 30px;
+    background-color: #1B262C;
+    box-shadow: 1px 0.5px 1px 8px  #BBE1FA;
+}
+
+.interested-lp{
+    padding: 0.5rem 10rem 0rem 10rem;
+}
+
+.about-item-lp{
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+.phrase-about-lp{
+    font-size: 1.5em;
+}
+
+.phrase-knowme-lp{
+    font-size: 1.5em;
+} 
+
+.phrase-ticketby-lp{
+    font-size: 1.5em;
+}
+
+.phrase-interest-lp{
+    font-size: 1.5em;
+}
+
+.link-page-about{
+    padding-bottom: 85px;
+}
+
+.send-button:hover{
+    background: #BBE1FA;
+    color: #1B262C;
+}
+
+
+
+}
