@@ -32,6 +32,7 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
+    padding: 1.5rem;
 }
 
 .header-link:hover {
@@ -41,6 +42,17 @@
 .header-links{
     display: flex;
     list-style-type: none;
+}
+
+.header-logo-img-cont{
+    width: 3.5rem;
+    height: 4rem;
+    margin-right: 1rem;
+    padding-top: 9px;
+}
+
+.div-mode {
+    padding-top: 18px;
 }
 
 li{

@@ -1,8 +1,20 @@
+const body = document.getElementById('body');
+const lightModeToggle = document.getElementById('light-mode-toggle');
 const hamMenuBtn = document.querySelector('.header-main-ham-menu-cont')
 const smallMenu = document.querySelector('.header-sm-menu')
 const headerHamMenuBtn = document.querySelector('.header-main-ham-menu')
 const headerHamMenuCloseBtn = document.querySelector(  '.header-main-ham-menu-close')
 const headerSmallMenuLinks = document.querySelectorAll('.header-sm-menu-link')
+
+lightModeToggle.addEventListener('click', () => {
+  body.classList.toggle('light-mode');
+
+  if (body.classList.contains('light-mode')) {
+      lightModeToggle.src = 'img/icons-light-on.png';
+  } else {
+      lightModeToggle.src = 'img/icons-light-off.png';
+  }
+});
 
 hamMenuBtn.addEventListener('click', () => {
   if (smallMenu.classList.contains('header-sm-menu--active')) {

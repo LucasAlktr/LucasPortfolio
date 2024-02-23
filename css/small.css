@@ -9,12 +9,17 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     font-weight: 300px;
-    color: White;
-    background-color: #0F4C75;
+    color: #F1F0E8;
+    background-color: #191919;
     position: relative;
     line-height: 1.5;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.light-mode {
+    background-color: #F9F9F9;
+    color: #191919;
 }
 
 h2{
@@ -65,14 +70,27 @@ h2{
     padding-top: 9px;
 }
 
-.logo {
-    width: 75px;
+.div-mode {
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+.mode {
+    width: 25px;
+    cursor: pointer;
 }
 
 .header-logo{
     letter-spacing: 1.4px;
     font-size: 30px;
     padding-left: 5px;
+    color: #F9F9F9;
+}
+
+.header-logo-simbol {
+    color: #CD1818;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .header-main{
@@ -180,6 +198,7 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 25px;
 }
 
 .lp-image{
@@ -218,7 +237,7 @@ li{
 }
 
 .media-icon{
-    width: 65px;
+    width: 55px;
     margin-right: 1rem;
 }
 
@@ -253,6 +272,14 @@ li{
     display: flex;
     justify-content: center;
     padding: 2rem 2rem;
+}
+
+.myskills-lp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 2rem;
+    color:#BBE1FA;
 }
 
 .skill-block{
