@@ -36,7 +36,9 @@
 }
 
 .header-link:hover {
-    color: #FEC260
+    color: #FEC260;
+    font-weight: 500;
+    font-size: 21px;
 }
 
 .header-links{
