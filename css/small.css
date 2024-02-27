@@ -20,6 +20,13 @@ body {
 .light-mode {
     background-color: #F9F9F9;
     color: #191919;
+
+    .name-lp{
+        color:#0F4C75;
+    }
+    .myskills-lp{
+        color:#0F4C75;
+    }
 }
 
 h2{
