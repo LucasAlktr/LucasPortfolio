@@ -242,6 +242,7 @@ li{
 }
 
 .apresentation-lp-h1{
+    padding-top: 1em;
     font-weight: 500;
     padding-left: 2rem;
 }
@@ -263,6 +264,11 @@ li{
     box-shadow: 1px 0.5px 1px 2px  #BBE1FA;
 }
 
+.main-about-lp{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
 
 .details-espec-lp{
     display: flex;
