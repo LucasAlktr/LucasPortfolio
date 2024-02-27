@@ -264,10 +264,6 @@ li{
 }
 
 
-.phrase-about-lp{
-    padding: 2rem 2rem;
-}
-
 .details-espec-lp{
     display: flex;
     justify-content: center;
@@ -306,6 +302,8 @@ li{
 }
 
 .some-works-lp{
+    display: flex;
+    justify-content: center;
     padding: 2rem 1rem 2rem 1rem;
 }
 
