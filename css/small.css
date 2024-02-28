@@ -27,6 +27,27 @@ body {
     .myskills-lp{
         color:#0F4C75;
     }
+    .project-item-lp{
+        color: #0F4C75;
+    }
+    .link-item-project{
+        color: #0F4C75;
+    }
+    .phrase-project-lp{
+        color: #0F4C75;
+    }
+    .project-content{
+        background-color:  #F1F0E8;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    }   
+    .form-contactme{
+        background-color:  #F1F0E8;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    }
+    .textbox-form, textarea {
+        background: #fff;
+        
+    }
 }
 
 h2{
