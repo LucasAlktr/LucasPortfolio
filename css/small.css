@@ -333,9 +333,112 @@ li{
 .interested-lp{
     display: flex;
     justify-content: center;
-    padding: 0.5rem 3rem 0rem 3re
+    padding: 0.5rem 3rem 0rem 3rem
 }
 
+/*project*/
+
+.project-section{
+    padding: 0px 50px 0px 50px;
+}
+
+.project-content{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0px 50px 0px;
+    background-color: #1B262C;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.project-img{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-item-lp{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.phrase-project-lp{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.project-tec{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 2rem;
+}
+
+.project-tec li{
+    padding: 1rem 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    background: #191919;
+    color: #BBE1FA;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px #191919;
+}
+
+.project-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 5px;
+}
+
+.external-project-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.link-item-project{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link-item-project:hover {
+    color: #FEC260;
+}
+
+.external-project-link img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.laptop-img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.project-image-container {
+    position: relative;
+}
+
+.project-img-detail {
+    position: absolute;
+    top: 8%;
+    left: 13%;
+    width: 74%;
+    height: 77%;
+    z-index: 1;
+}
 
 .project-item-lp{
     padding: 0rem 1rem;
@@ -350,14 +453,6 @@ li{
     justify-content: center;
 }
 
-.laptop-ticketby-img{
-    width: 480px;
-    padding: 2rem 2rem;
-}
-
-.ticketBy-project-lp{
-    text-align: center;
-}
 
 
 /*form*/
