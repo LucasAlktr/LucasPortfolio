@@ -229,10 +229,9 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 20px;
+    margin-bottom: 25px; 
 }
-
-
 
 .lp-image{
     padding-bottom: 2rem;
@@ -270,7 +269,8 @@ li{
 }
 
 .media-icon{
-    width: 55px;
+    width: 55px; 
+    height: 55px; 
     margin-right: 1rem;
 }
 
