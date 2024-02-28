@@ -40,6 +40,9 @@ body {
         background-color:  #F1F0E8;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
     }   
+    .lets-talk-lp{
+        color: #0F4C75;
+    }
     .form-contactme{
         background-color:  #F1F0E8;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
@@ -359,11 +362,18 @@ li{
 
 .interested-lp{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 0.5rem 3rem 0rem 3rem
 }
 
 /*project*/
+
+.phrase-interest-lp{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
 
 .project-section{
     padding: 0px 50px 0px 50px;
@@ -481,6 +491,13 @@ li{
 }
 
 /*form*/
+
+
+.lets-talk-lp{
+    color:#BBE1FA;
+    font-weight: 500;
+    font-size: larger;
+}
 
 .form-contactme {
     padding: 2rem;
