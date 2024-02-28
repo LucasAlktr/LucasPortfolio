@@ -46,7 +46,7 @@ body {
     }
     .textbox-form, textarea {
         background: #fff;
-        
+        border: 1px solid #0F4C75;
     }
 }
 
