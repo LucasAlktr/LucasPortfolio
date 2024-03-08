@@ -1,5 +1,9 @@
 @media only screen and (min-width:1024px) {
 
+.link-page-about{
+    padding-bottom: 195px;
+}
+
 .header-links {
     list-style-type: none;
     
