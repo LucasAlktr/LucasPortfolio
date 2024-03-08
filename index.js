@@ -32,3 +32,35 @@ const headerLogoContainer = document.querySelector('.header-logo-container')
 headerLogoContainer.addEventListener('click', () => {
 location.href = '/'
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const feedbackImages = document.querySelectorAll('.img-feedback');
+  const feedbackLabels = document.querySelectorAll('.slider-controls label');
+
+  let currentIndex = 1;
+
+  function showImage(index) {
+    feedbackImages.forEach((image, i) => {
+      if (i === index) {
+        image.style.display = 'block';
+      } else {
+        image.style.display = 'none';
+      }
+    });
+  }
+
+  function handleLabelClick(index) {
+    currentIndex = index;
+    showImage(currentIndex);
+  }
+
+  feedbackLabels.forEach((label, index) => {
+    label.addEventListener('click', () => handleLabelClick(index));
+  });
+
+  // Auto play next image after 5 seconds (adjust as needed)
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % feedbackImages.length;
+    showImage(currentIndex);
+  }, 10000);
+});

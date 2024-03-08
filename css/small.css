@@ -357,6 +357,17 @@ li{
     padding: 2rem 2rem;
 }
 
+.img-feedback {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    justify-content: center;
+}
+
+.slider{
+    border-radius: 10px;
+}
+
 .details-espec-lp{
     display: flex;
     justify-content: center;
