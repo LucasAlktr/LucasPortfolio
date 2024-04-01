@@ -365,6 +365,7 @@ li{
 }
 
 .slider{
+    display: none;
     border-radius: 10px;
 }
 

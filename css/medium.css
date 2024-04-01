@@ -119,6 +119,7 @@
     }
     
     .slider {
+        display: block;
         position: relative;
         width: 51%; /* Ajuste a largura conforme necessário */
         padding-bottom: 17px;
